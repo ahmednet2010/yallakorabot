@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ES2022",
+    "target": "ES2022",
+    "lib": ["es6", "dom","dom.iterable"],
+    "sourceMap": false,
+    "esModuleInterop": true,                            
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "noImplicitReturns": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports":true,
+    "skipLibCheck": true    
+  },
+  "exclude": [
+    "node_modules",
+    "typings",
+    "dist/**/*",
+    "pb_*"
+  ]
+}
